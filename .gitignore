@@ -1,0 +1,25 @@
+# ===== 密码和配置（最重要！） =====
+.env
+*.key
+*.pem
+
+# ===== 依赖文件夹 =====
+node_modules/
+venv/
+.venv/
+
+# ===== 编译产物 / 缓存 =====
+__pycache__/
+*.pyc
+dist/
+build/
+*.class
+
+# ===== 临时文件 / 垃圾 =====
+*.tmp
+*.log
+*草稿*
+
+# ===== 操作系统垃圾 =====
+.DS_Store
+Thumbs.db
